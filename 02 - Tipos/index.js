@@ -46,6 +46,14 @@ var carText;
 carText = car.plate + " - " + car.name + " - " + car.color;
 console.log(carText);
 /* --------------------------------- */
+//Never
+//Funções que tem loop infinito, nunca retornam nada
+/*function testeFunction(): never {
+  while (true) {
+    console.log("Tesye")
+  }
+}*/
+/* --------------------------------- */
 //Void
 function sayHiTo(name) {
     console.log("Hi! " + name);

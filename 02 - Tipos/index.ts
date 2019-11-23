@@ -69,6 +69,17 @@ console.log(carText);
 
 /* --------------------------------- */
 
+//Never
+//Funções que tem loop infinito, nunca retornam nada
+
+/*function testeFunction(): never {
+  while (true) {
+    console.log("Tesye")
+  }
+}*/
+
+/* --------------------------------- */
+
 //Void
 
 function sayHiTo(name: string): void {
